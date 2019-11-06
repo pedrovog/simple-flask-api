@@ -20,18 +20,7 @@ Then simple run:
     $ make run    
 
 Or:
-
-    ```shell
+    
     $ export FLASK_APP='simple_api/simple_api.py';\
-	$ flask run --host 0.0.0.0 --port 8081
-    ```
-
-Exemplo de Uso
---------------
-
-TBD
-
-Contribuições
--------------
-
-São bem-vindas!
+	flask run --host 0.0.0.0 --port 8081
+    
