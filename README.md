@@ -16,12 +16,11 @@ First you need to install API requirements:
     $ pip install -r requirements.txt 
 
 Then simple run:
-
-    ```shell
-    $ make run
-    ```
+    
+    $ make run    
 
 Or:
+
     ```shell
     $ export FLASK_APP='simple_api/simple_api.py';\
 	$ flask run --host 0.0.0.0 --port 8081
