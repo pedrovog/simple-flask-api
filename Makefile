@@ -30,7 +30,10 @@ docker-build:
 	docker build -t simple-api .
 
 docker-run:
-	docker run -d --rm -p 8081:8081 --name simple-api simple-api
+	docker run --rm -p 8081:8081 --name simple-api simple-api
+
+docker-test:
+	docker run --rm --name simple-api simple-api pytest
 
 docker-push:
 ifdef TAG

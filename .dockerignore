@@ -1,2 +1,14 @@
+## Virtual Envs
 venv/
 venv
+env/
+env
+
+## IDEs
+# pycharm
+.idea/
+.idea
+
+# vscode
+.vscode/
+.vscode
